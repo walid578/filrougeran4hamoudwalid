@@ -1,0 +1,310 @@
+/*LES POLICES*/
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../assets/fonts/Montserrat-Medium.ttf');
+}
+
+/*/////////////////////////*/
+
+
+
+/*GENERAL*/
+body {
+	margin: 0px;
+	background-color: #f1f6f2;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1, p, a, button {
+	font-family: 'Montserrat-Medium';
+}
+
+/*/////////////////////////*/
+
+
+
+
+/*LE HEADER*/
+#headerAccueil {
+
+	height: 950px;
+	background-size: cover;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url("../assets/img/carrouselAccueil/carrousel.gif");
+
+}
+
+/*MENU PRINCIPAL du HEADER*/
+#navHead {
+	display: flex;
+	align-items: center;
+
+}
+
+#menuPrincipal {
+	margin-top: 30px;
+	display: flex;
+	padding-left: 0px;
+
+}
+
+#menuPrincipal a {
+	width: 50px;
+	padding-right: 20px;
+	color: white;
+	font-size: 25px;
+
+}
+
+/*BTN NUMTEL du HEADER*/
+#numTel {
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 15px 50px 0 50px;
+	color: #10c248;
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px solid;
+	border-radius: 10px;
+	border-color: #10c248;
+}
+
+#numTel:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	background-color: #10c248;
+}
+
+
+
+
+
+/*LES TEXTES du HEADER*/
+#textCenterHeader {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	color: white;
+	margin-inline: 300px;
+	margin-top: 140px;
+}
+
+#textCenterLeft {
+	width: 700px;
+}
+
+#textHeader1 {
+	font-size: 25px;
+	color: #10c248;
+	margin-bottom: 5px;
+}
+
+#sep1 {
+	width: 200px;
+	border-color: #10c248;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+#textHeader2 {
+	font-family: 'Montserrat-Light';
+	font-size: 80px;
+	margin-top: 10px;
+}
+
+#textCenterRight {
+	width: 600px;
+	padding-top: 150px;
+}
+
+#textHeader3 {
+	font-family: 'Montserrat-Light';
+	padding-right: 0px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+#sep2 {
+	width: 200px;
+	border-color: #10c248;
+	margin-top: 0px;
+	margin-left: 380px;
+}
+
+/*BTN Devis DU HEADER*/
+#demandezUnDevis {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	margin: 15px 50px 0 50px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #10c248;
+	font-weight: bold;
+	color: #10c248;
+	font-size: 18px;
+}
+
+#demandezUnDevis:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	background-color: #10c248;
+}
+
+/*/////////////////////////*/
+
+
+
+
+
+/*PARTIE CENTRALE*/
+#sectionCenter {
+	height: 900px;
+}
+
+#blocPresServices {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.itemsSectionCenter {
+	width: 100%;
+	text-align: center;
+	
+}
+#textSectionCenter1 {
+	padding-top: 20px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#textSectionCenter2 {
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+#btnNosServices {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	margin: 15px 50px 0 50px;
+	padding: 5px;
+	color: #10c248;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #10c248;
+	font-family: 'Montserrat-Medium';
+	background-color: rgba(0, 0, 0, 0);
+	font-weight: bold;
+
+}
+
+
+#btnNosServices:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.40), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	background-color: #10c248;
+}
+
+/*LES IMAGES RONDES SERVICES*/
+#blocImgServices {
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-inline: 200px;
+}
+
+
+.imgServices {
+	width: 350px;
+	height: 350px;
+}
+
+.textRondService {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*/////////////////////////*/
+
+
+/*LE FOOTER*/
+footer {
+	height: 500px;
+	background-color: #181e19;
+	text-align: center;
+}
+
+#corpFooter {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Montserrat-Medium';
+	padding-inline: 200px;
+	color: white;
+	padding-top: 50px;
+
+}
+
+#footLeft {
+	width: 33%;
+	padding-top: 40px;
+}
+#footCenter {
+	padding-top: 20px;
+ width: 33%;
+}
+#footRight {
+ width: 33%;
+}
+#blocMenuRapide {
+	display: flex;
+	justify-content: center;
+	
+}
+#footCenterText1 {
+	font-size: 30px;
+}
+#footCenterText2 {
+	text-align: justify;
+	font-size: 18px;
+}
+#footCenterText2 a {
+	color: #10c248;
+}
+#menuRapide{
+	text-align: left;
+	font-size: 30px;
+}
+#footBottom {
+	display: flex;
+	justify-content: space-between;
+
+}
+#footBottom p {
+	color: white;
+	margin-inline: 100px;
+}

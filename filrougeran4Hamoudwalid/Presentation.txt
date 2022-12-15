@@ -1,0 +1,3 @@
+Mon projet fil rouge :
+
+J'ai simplement reproduit en html css, la page d'accueil de mon site de stage réalisé via wordpress.
